@@ -7,3 +7,9 @@ At first glance, dividing something in python is simple, because you can just wr
 ```
 But why would you do that, when you can use a whole function for that, that doesn't actually use any division!
 Have fun!
+
+Also, this is about 100 times slower than the regular division operator division:
+```
+10000 divisions with my stupid function took  0.11397647857666016
+10000 normal divisions took  0.001978635787963867
+```
